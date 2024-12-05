@@ -7,6 +7,13 @@ export default {
   args: {
     src: 'https://github.com/hnascx.png',
     alt: 'hnascx'
+  },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      } 
+    }
   }
 } as Meta<AvatarProps>
 
