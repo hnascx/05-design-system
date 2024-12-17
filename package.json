@@ -15,5 +15,8 @@
   "name": "with-vite",
   "engines": {
     "node": ">=20.0.0"
+  },
+  "resolutions": {
+    "esbuild": "0.24.0"
   }
 }
